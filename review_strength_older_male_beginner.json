@@ -1,0 +1,195 @@
+{
+  "test_name": "strength_older_male_beginner",
+  "generated_at": "2026-01-12T14:41:25.052058",
+  "user_profile": {
+    "age": 58,
+    "gender": "male",
+    "body_weight_lb": 195,
+    "goal": "strength",
+    "experience": "beginner",
+    "days_per_week": 3,
+    "exercises_per_day": 5,
+    "equipment_access": "full_gym",
+    "split_type": "full_body"
+  },
+  "constraint": null,
+  "plan": {
+    "plan_version": "v1",
+    "overview": {
+      "goal": "strength",
+      "days_per_week": 3,
+      "split_type": "Full Body",
+      "exercises_per_day": 5
+    },
+    "sessions": [
+      {
+        "day_index": 0,
+        "title": "Full Body Strength Day 1",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "bench-press",
+                "sets": 4,
+                "reps": 5,
+                "suggested_weight_lb": 135,
+                "exercise_name": "Bench Press",
+                "category": "chest",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "bent-over-row",
+                "sets": 4,
+                "reps": 5,
+                "suggested_weight_lb": 95,
+                "exercise_name": "Bent Over Row",
+                "category": "back",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "barbell-hack-squat",
+                "sets": 4,
+                "reps": 5,
+                "suggested_weight_lb": 135,
+                "exercise_name": "Barbell Hack Squat",
+                "category": "legs",
+                "equipment": "barbell"
+              },
+              {
+                "exercise_id": "shoulder-press",
+                "sets": 3,
+                "reps": 5,
+                "suggested_weight_lb": 75,
+                "exercise_name": "Shoulder Press",
+                "category": "shoulders",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "barbell-curl",
+                "sets": 3,
+                "reps": 6,
+                "suggested_weight_lb": 45,
+                "exercise_name": "Barbell Curl",
+                "category": "arms",
+                "equipment": "barbell"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day_index": 1,
+        "title": "Full Body Strength Day 2",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "squat",
+                "sets": 4,
+                "reps": 5,
+                "suggested_weight_lb": 165,
+                "exercise_name": "Squat",
+                "category": "legs",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "bent-over-dumbbell-row",
+                "sets": 4,
+                "reps": 5,
+                "suggested_weight_lb": 45,
+                "exercise_name": "Bent Over Dumbbell Row",
+                "category": "back",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "bench-pin-press",
+                "sets": 4,
+                "reps": 5,
+                "suggested_weight_lb": 145,
+                "exercise_name": "Bench Pin Press",
+                "category": "chest",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "cable-lateral-raise",
+                "sets": 3,
+                "reps": 6,
+                "suggested_weight_lb": 25,
+                "exercise_name": "Cable Lateral Raise",
+                "category": "shoulders",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "cable-bicep-curl",
+                "sets": 3,
+                "reps": 6,
+                "suggested_weight_lb": 30,
+                "exercise_name": "Cable Bicep Curl",
+                "category": "arms",
+                "equipment": "cable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day_index": 2,
+        "title": "Full Body Strength Day 3",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "barbell-glute-bridge",
+                "sets": 4,
+                "reps": 5,
+                "suggested_weight_lb": 115,
+                "exercise_name": "Barbell Glute Bridge",
+                "category": "legs",
+                "equipment": "barbell"
+              },
+              {
+                "exercise_id": "pull-ups",
+                "sets": 3,
+                "reps": 5,
+                "suggested_weight_lb": null,
+                "exercise_name": "Pull Ups",
+                "category": "back",
+                "equipment": "bodyweight"
+              },
+              {
+                "exercise_id": "arnold-press",
+                "sets": 3,
+                "reps": 6,
+                "suggested_weight_lb": 35,
+                "exercise_name": "Arnold Press",
+                "category": "shoulders",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "cable-overhead-tricep-extension",
+                "sets": 3,
+                "reps": 6,
+                "suggested_weight_lb": 25,
+                "exercise_name": "Cable Overhead Tricep Extension",
+                "category": "arms",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "barbell-reverse-lunge",
+                "sets": 4,
+                "reps": 5,
+                "suggested_weight_lb": 95,
+                "exercise_name": "Barbell Reverse Lunge",
+                "category": "legs",
+                "equipment": "barbell"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

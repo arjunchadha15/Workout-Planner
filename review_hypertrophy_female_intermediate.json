@@ -1,0 +1,343 @@
+{
+  "test_name": "hypertrophy_female_intermediate",
+  "generated_at": "2026-01-12T14:42:03.778824",
+  "user_profile": {
+    "age": 28,
+    "gender": "female",
+    "body_weight_lb": 135,
+    "goal": "hypertrophy",
+    "experience": "intermediate",
+    "days_per_week": 5,
+    "exercises_per_day": 6,
+    "equipment_access": "full_gym",
+    "split_type": "push_pull_legs"
+  },
+  "constraint": null,
+  "plan": {
+    "plan_version": "v1",
+    "overview": {
+      "goal": "hypertrophy",
+      "days_per_week": 5,
+      "split_type": "PPL",
+      "exercises_per_day": 6
+    },
+    "sessions": [
+      {
+        "day_index": 0,
+        "title": "Push Day 1",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "bench-press",
+                "sets": 4,
+                "reps": 10,
+                "suggested_weight_lb": 135,
+                "exercise_name": "Bench Press",
+                "category": "chest",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "dumbbell-bench-press",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Dumbbell Bench Press",
+                "category": "chest",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-fly",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Cable Fly",
+                "category": "chest",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "shoulder-press",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 95,
+                "exercise_name": "Shoulder Press",
+                "category": "shoulders",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "dumbbell-lateral-raise",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 15,
+                "exercise_name": "Dumbbell Lateral Raise",
+                "category": "shoulders",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-overhead-tricep-extension",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 30,
+                "exercise_name": "Cable Overhead Tricep Extension",
+                "category": "arms",
+                "equipment": "cable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day_index": 1,
+        "title": "Pull Day 1",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "bent-over-row",
+                "sets": 4,
+                "reps": 10,
+                "suggested_weight_lb": 115,
+                "exercise_name": "Bent Over Row",
+                "category": "back",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "pull-ups",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": null,
+                "exercise_name": "Pull Ups",
+                "category": "back",
+                "equipment": "bodyweight"
+              },
+              {
+                "exercise_id": "chest-supported-dumbbell-row",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Chest Supported Dumbbell Row",
+                "category": "back",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-bicep-curl",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 30,
+                "exercise_name": "Cable Bicep Curl",
+                "category": "arms",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "cable-hammer-curl",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 30,
+                "exercise_name": "Cable Hammer Curl",
+                "category": "arms",
+                "equipment": "cable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day_index": 2,
+        "title": "Leg Day 1",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "squat",
+                "sets": 4,
+                "reps": 10,
+                "suggested_weight_lb": 135,
+                "exercise_name": "Squat",
+                "category": "legs",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "dumbbell-romanian-deadlift",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 50,
+                "exercise_name": "Dumbbell Romanian Deadlift",
+                "category": "back",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-leg-extension",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 50,
+                "exercise_name": "Cable Leg Extension",
+                "category": "legs",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "dumbbell-bulgarian-split-squat",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 30,
+                "exercise_name": "Dumbbell Bulgarian Split Squat",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-calf-raise",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Dumbbell Calf Raise",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-crunch",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Cable Crunch",
+                "category": "core",
+                "equipment": "cable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day_index": 3,
+        "title": "Push Day 2",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "close-grip-dumbbell-bench-press",
+                "sets": 4,
+                "reps": 10,
+                "suggested_weight_lb": 50,
+                "exercise_name": "Close Grip Dumbbell Bench Press",
+                "category": "chest",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "decline-dumbbell-bench-press",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 45,
+                "exercise_name": "Decline Dumbbell Bench Press",
+                "category": "chest",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-fly",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 20,
+                "exercise_name": "Dumbbell Fly",
+                "category": "chest",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-front-raise",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 15,
+                "exercise_name": "Dumbbell Front Raise",
+                "category": "shoulders",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-lateral-raise",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 15,
+                "exercise_name": "Cable Lateral Raise",
+                "category": "shoulders",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "cable-upright-row",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 30,
+                "exercise_name": "Cable Upright Row",
+                "category": "shoulders",
+                "equipment": "cable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day_index": 4,
+        "title": "Pull Day 2",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "deadlift",
+                "sets": 4,
+                "reps": 10,
+                "suggested_weight_lb": 135,
+                "exercise_name": "Deadlift",
+                "category": "back",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "bent-over-dumbbell-row",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Bent Over Dumbbell Row",
+                "category": "back",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-shrug",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 50,
+                "exercise_name": "Cable Shrug",
+                "category": "back",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "cable-reverse-fly",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 20,
+                "exercise_name": "Cable Reverse Fly",
+                "category": "chest",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "dumbbell-curl",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 20,
+                "exercise_name": "Dumbbell Curl",
+                "category": "arms",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-reverse-curl",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": 15,
+                "exercise_name": "Dumbbell Reverse Curl",
+                "category": "arms",
+                "equipment": "dumbbell"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

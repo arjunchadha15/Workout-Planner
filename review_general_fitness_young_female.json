@@ -1,0 +1,213 @@
+{
+  "test_name": "general_fitness_young_female",
+  "generated_at": "2026-01-12T14:44:51.646533",
+  "user_profile": {
+    "age": 22,
+    "gender": "female",
+    "body_weight_lb": 125,
+    "goal": "general_fitness",
+    "experience": "beginner",
+    "days_per_week": 3,
+    "exercises_per_day": 5,
+    "equipment_access": "full_gym",
+    "split_type": "full_body"
+  },
+  "constraint": null,
+  "plan": {
+    "plan_version": "v1",
+    "overview": {
+      "goal": "general_fitness",
+      "days_per_week": 3,
+      "split_type": "full_body",
+      "exercises_per_day": 5
+    },
+    "sessions": [
+      {
+        "day_index": 0,
+        "title": "Full Body Workout A",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "dumbbell-front-squat",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 25,
+                "exercise_name": "Dumbbell Front Squat",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-bench-press",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 20,
+                "exercise_name": "Dumbbell Bench Press",
+                "category": "chest",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "bent-over-dumbbell-row",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 15,
+                "exercise_name": "Bent Over Dumbbell Row",
+                "category": "back",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-lateral-raise",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 10,
+                "exercise_name": "Dumbbell Lateral Raise",
+                "category": "shoulders",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "crunches",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": null,
+                "exercise_name": "Crunches",
+                "category": "core",
+                "equipment": "bodyweight"
+              }
+            ]
+          },
+          {
+            "type": "cardio",
+            "cardio_id": "treadmill",
+            "zone": "zone2",
+            "duration_minutes": 20
+          }
+        ]
+      },
+      {
+        "day_index": 1,
+        "title": "Full Body Workout B",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "bodyweight-squat",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": null,
+                "exercise_name": "Bodyweight Squat",
+                "category": "legs",
+                "equipment": "bodyweight"
+              },
+              {
+                "exercise_id": "close-grip-dumbbell-bench-press",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 20,
+                "exercise_name": "Close Grip Dumbbell Bench Press",
+                "category": "chest",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "chest-supported-dumbbell-row",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 20,
+                "exercise_name": "Chest Supported Dumbbell Row",
+                "category": "back",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-front-raise",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 10,
+                "exercise_name": "Dumbbell Front Raise",
+                "category": "shoulders",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "bicycle-crunch",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": null,
+                "exercise_name": "Bicycle Crunch",
+                "category": "core",
+                "equipment": "bodyweight"
+              }
+            ]
+          },
+          {
+            "type": "cardio",
+            "cardio_id": "elliptical",
+            "zone": "zone2",
+            "duration_minutes": 20
+          }
+        ]
+      },
+      {
+        "day_index": 2,
+        "title": "Full Body Workout C",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "dumbbell-lunge",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 15,
+                "exercise_name": "Dumbbell Lunge",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-fly",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 15,
+                "exercise_name": "Dumbbell Fly",
+                "category": "chest",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "bent-over-row",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 45,
+                "exercise_name": "Bent Over Row",
+                "category": "back",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "shoulder-press",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 30,
+                "exercise_name": "Shoulder Press",
+                "category": "shoulders",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "decline-crunch",
+                "sets": 3,
+                "reps": 12,
+                "suggested_weight_lb": null,
+                "exercise_name": "Decline Crunch",
+                "category": "core",
+                "equipment": "bodyweight"
+              }
+            ]
+          },
+          {
+            "type": "cardio",
+            "cardio_id": "row-machine",
+            "zone": "zone2",
+            "duration_minutes": 20
+          }
+        ]
+      }
+    ]
+  }
+}

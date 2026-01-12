@@ -1,0 +1,287 @@
+{
+  "test_name": "equipment_dumbbells_only",
+  "generated_at": "2026-01-12T14:46:01.899435",
+  "user_profile": {
+    "age": 30,
+    "gender": "male",
+    "body_weight_lb": 170,
+    "goal": "hypertrophy",
+    "experience": "intermediate",
+    "days_per_week": 4,
+    "exercises_per_day": 6,
+    "equipment_access": "dumbbells_only",
+    "split_type": "upper_lower"
+  },
+  "constraint": "i only have dumbbells and a pull-up bar",
+  "plan": {
+    "plan_version": "v1",
+    "overview": {
+      "goal": "hypertrophy",
+      "days_per_week": 4,
+      "split_type": "upper/lower",
+      "exercises_per_day": 6
+    },
+    "sessions": [
+      {
+        "day_index": 0,
+        "title": "Upper Body Day 1",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "dumbbell-bench-press",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 60,
+                "exercise_name": "Dumbbell Bench Press",
+                "category": "chest",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "bent-over-dumbbell-row",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Bent Over Dumbbell Row",
+                "category": "back",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "pull-ups",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": null,
+                "exercise_name": "Pull Ups",
+                "category": "back",
+                "equipment": "bodyweight"
+              },
+              {
+                "exercise_id": "shoulder-press",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 50,
+                "exercise_name": "Shoulder Press",
+                "category": "shoulders",
+                "equipment": "unknown"
+              },
+              {
+                "exercise_id": "dumbbell-curl",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 30,
+                "exercise_name": "Dumbbell Curl",
+                "category": "arms",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-overhead-tricep-extension",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Cable Overhead Tricep Extension",
+                "category": "arms",
+                "equipment": "cable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day_index": 1,
+        "title": "Lower Body Day 1",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "dumbbell-front-squat",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 80,
+                "exercise_name": "Dumbbell Front Squat",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-romanian-deadlift",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 70,
+                "exercise_name": "Dumbbell Romanian Deadlift",
+                "category": "back",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-bulgarian-split-squat",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Dumbbell Bulgarian Split Squat",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-calf-raise",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Dumbbell Calf Raise",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-lunge",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 50,
+                "exercise_name": "Dumbbell Lunge",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-leg-extension",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 45,
+                "exercise_name": "Cable Leg Extension",
+                "category": "legs",
+                "equipment": "cable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day_index": 2,
+        "title": "Upper Body Day 2",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "close-grip-dumbbell-bench-press",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 55,
+                "exercise_name": "Close Grip Dumbbell Bench Press",
+                "category": "chest",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "chest-supported-dumbbell-row",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 45,
+                "exercise_name": "Chest Supported Dumbbell Row",
+                "category": "back",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-reverse-fly",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 25,
+                "exercise_name": "Dumbbell Reverse Fly",
+                "category": "chest",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-lateral-raise",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 20,
+                "exercise_name": "Dumbbell Lateral Raise",
+                "category": "shoulders",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-concentration-curl",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 25,
+                "exercise_name": "Dumbbell Concentration Curl",
+                "category": "arms",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-bicep-curl",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Cable Bicep Curl",
+                "category": "arms",
+                "equipment": "cable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day_index": 3,
+        "title": "Lower Body Day 2",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "dumbbell-squat",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 85,
+                "exercise_name": "Dumbbell Squat",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-deadlift",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 75,
+                "exercise_name": "Dumbbell Deadlift",
+                "category": "back",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-calf-raise",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Dumbbell Calf Raise",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-lunge",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 50,
+                "exercise_name": "Dumbbell Lunge",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-bulgarian-split-squat",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Dumbbell Bulgarian Split Squat",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "dumbbell-romanian-deadlift",
+                "sets": 3,
+                "reps": 10,
+                "suggested_weight_lb": 70,
+                "exercise_name": "Dumbbell Romanian Deadlift",
+                "category": "back",
+                "equipment": "dumbbell"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

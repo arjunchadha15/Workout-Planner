@@ -1,0 +1,235 @@
+{
+  "plan_version": "v1",
+  "overview": {
+    "goal": "strength",
+    "days_per_week": 4,
+    "split_type": "upper/lower",
+    "exercises_per_day": 5
+  },
+  "sessions": [
+    {
+      "day_index": 0,
+      "title": "Upper Body Day 1",
+      "blocks": [
+        {
+          "type": "strength",
+          "items": [
+            {
+              "exercise_id": "bench-press",
+              "sets": 5,
+              "reps": 5,
+              "suggested_weight_lb": 185,
+              "exercise_name": "Bench Press",
+              "category": "chest",
+              "equipment": "unknown"
+            },
+            {
+              "exercise_id": "bent-over-row",
+              "sets": 5,
+              "reps": 5,
+              "suggested_weight_lb": 185,
+              "exercise_name": "Bent Over Row",
+              "category": "back",
+              "equipment": "unknown"
+            },
+            {
+              "exercise_id": "shoulder-press",
+              "sets": 4,
+              "reps": 5,
+              "suggested_weight_lb": 135,
+              "exercise_name": "Shoulder Press",
+              "category": "shoulders",
+              "equipment": "unknown"
+            },
+            {
+              "exercise_id": "pull-ups",
+              "sets": 4,
+              "reps": 6,
+              "suggested_weight_lb": null,
+              "exercise_name": "Pull Ups",
+              "category": "back",
+              "equipment": "bodyweight"
+            },
+            {
+              "exercise_id": "barbell-curl",
+              "sets": 3,
+              "reps": 6,
+              "suggested_weight_lb": 85,
+              "exercise_name": "Barbell Curl",
+              "category": "arms",
+              "equipment": "barbell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_index": 1,
+      "title": "Lower Body Day 1",
+      "blocks": [
+        {
+          "type": "strength",
+          "items": [
+            {
+              "exercise_id": "squat",
+              "sets": 5,
+              "reps": 5,
+              "suggested_weight_lb": 225,
+              "exercise_name": "Squat",
+              "category": "legs",
+              "equipment": "unknown"
+            },
+            {
+              "exercise_id": "barbell-hack-squat",
+              "sets": 4,
+              "reps": 5,
+              "suggested_weight_lb": 185,
+              "exercise_name": "Barbell Hack Squat",
+              "category": "legs",
+              "equipment": "barbell"
+            },
+            {
+              "exercise_id": "barbell-glute-bridge",
+              "sets": 4,
+              "reps": 6,
+              "suggested_weight_lb": 185,
+              "exercise_name": "Barbell Glute Bridge",
+              "category": "legs",
+              "equipment": "barbell"
+            },
+            {
+              "exercise_id": "barbell-lunge",
+              "sets": 3,
+              "reps": 6,
+              "suggested_weight_lb": 135,
+              "exercise_name": "Barbell Lunge",
+              "category": "legs",
+              "equipment": "barbell"
+            },
+            {
+              "exercise_id": "barbell-calf-raise",
+              "sets": 3,
+              "reps": 8,
+              "suggested_weight_lb": 135,
+              "exercise_name": "Barbell Calf Raise",
+              "category": "legs",
+              "equipment": "barbell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_index": 2,
+      "title": "Upper Body Day 2",
+      "blocks": [
+        {
+          "type": "strength",
+          "items": [
+            {
+              "exercise_id": "bench-pin-press",
+              "sets": 5,
+              "reps": 5,
+              "suggested_weight_lb": 185,
+              "exercise_name": "Bench Pin Press",
+              "category": "chest",
+              "equipment": "unknown"
+            },
+            {
+              "exercise_id": "bent-over-dumbbell-row",
+              "sets": 4,
+              "reps": 6,
+              "suggested_weight_lb": 90,
+              "exercise_name": "Bent Over Dumbbell Row",
+              "category": "back",
+              "equipment": "dumbbell"
+            },
+            {
+              "exercise_id": "arnold-press",
+              "sets": 4,
+              "reps": 6,
+              "suggested_weight_lb": 60,
+              "exercise_name": "Arnold Press",
+              "category": "shoulders",
+              "equipment": "unknown"
+            },
+            {
+              "exercise_id": "cable-reverse-fly",
+              "sets": 3,
+              "reps": 8,
+              "suggested_weight_lb": 40,
+              "exercise_name": "Cable Reverse Fly",
+              "category": "chest",
+              "equipment": "cable"
+            },
+            {
+              "exercise_id": "reverse-barbell-curl",
+              "sets": 3,
+              "reps": 8,
+              "suggested_weight_lb": 65,
+              "exercise_name": "Reverse Barbell Curl",
+              "category": "arms",
+              "equipment": "barbell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day_index": 3,
+      "title": "Lower Body Day 2",
+      "blocks": [
+        {
+          "type": "strength",
+          "items": [
+            {
+              "exercise_id": "belt-squat",
+              "sets": 5,
+              "reps": 5,
+              "suggested_weight_lb": 225,
+              "exercise_name": "Belt Squat",
+              "category": "legs",
+              "equipment": "unknown"
+            },
+            {
+              "exercise_id": "bulgarian-split-squat",
+              "sets": 4,
+              "reps": 6,
+              "suggested_weight_lb": 95,
+              "exercise_name": "Bulgarian Split Squat",
+              "category": "legs",
+              "equipment": "unknown"
+            },
+            {
+              "exercise_id": "behind-the-back-deadlift",
+              "sets": 4,
+              "reps": 6,
+              "suggested_weight_lb": 225,
+              "exercise_name": "Behind The Back Deadlift",
+              "category": "back",
+              "equipment": "unknown"
+            },
+            {
+              "exercise_id": "barbell-reverse-lunge",
+              "sets": 3,
+              "reps": 6,
+              "suggested_weight_lb": 135,
+              "exercise_name": "Barbell Reverse Lunge",
+              "category": "legs",
+              "equipment": "barbell"
+            },
+            {
+              "exercise_id": "bodyweight-calf-raise",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": null,
+              "exercise_name": "Bodyweight Calf Raise",
+              "category": "legs",
+              "equipment": "bodyweight"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

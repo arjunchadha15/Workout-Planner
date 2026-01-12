@@ -1,0 +1,42 @@
+{
+  "test_suite": "Comprehensive Goal and Demographic Testing",
+  "generated_at": "2026-01-12T14:46:38.539041",
+  "total_tests": 10,
+  "test_files": [
+    "review_strength_young_male_advanced.json",
+    "review_strength_older_male_beginner.json",
+    "review_hypertrophy_female_intermediate.json",
+    "review_hypertrophy_male_ppl_abs.json",
+    "review_weight_loss_female_beginner.json",
+    "review_weight_loss_male_advanced.json",
+    "review_general_fitness_young_female.json",
+    "review_general_fitness_older_male.json",
+    "review_equipment_dumbbells_only.json",
+    "review_constraint_abs_cardio_every_workout.json"
+  ],
+  "goals_tested": [
+    "strength (young advanced, older beginner)",
+    "hypertrophy (female intermediate, male with constraints)",
+    "weight_loss (female beginner, male advanced)",
+    "general_fitness (young female, older male)"
+  ],
+  "demographics_tested": [
+    "Age: 22-62 years",
+    "Gender: Male and Female",
+    "Experience: Beginner, Intermediate, Advanced",
+    "Body weight: 125-210 lbs"
+  ],
+  "constraints_tested": [
+    "Abs on specific days (leg days)",
+    "Equipment limitations (dumbbells only)",
+    "Abs and cardio every workout"
+  ],
+  "review_instructions": [
+    "1. Check for duplicate exercises within same session",
+    "2. Verify cardio percentage matches goal (weight_loss: 70%, general: 50%)",
+    "3. Confirm split types match days per week",
+    "4. Validate exercise difficulty matches experience level",
+    "5. Ensure older users get joint-friendly exercises",
+    "6. Check constraint compliance (abs placement, equipment usage)"
+  ]
+}

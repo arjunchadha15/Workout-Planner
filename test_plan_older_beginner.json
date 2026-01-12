@@ -1,0 +1,170 @@
+{
+  "plan_version": "v1",
+  "overview": {
+    "goal": "general_fitness",
+    "days_per_week": 3,
+    "split_type": "Full Body",
+    "exercises_per_day": 4
+  },
+  "sessions": [
+    {
+      "day_index": 0,
+      "title": "Full Body Session 1",
+      "blocks": [
+        {
+          "type": "strength",
+          "items": [
+            {
+              "exercise_id": "bodyweight-squat",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": null,
+              "exercise_name": "Bodyweight Squat",
+              "category": "legs",
+              "equipment": "bodyweight"
+            },
+            {
+              "exercise_id": "dumbbell-bench-press",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": 40,
+              "exercise_name": "Dumbbell Bench Press",
+              "category": "chest",
+              "equipment": "dumbbell"
+            },
+            {
+              "exercise_id": "chest-supported-dumbbell-row",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": 30,
+              "exercise_name": "Chest Supported Dumbbell Row",
+              "category": "back",
+              "equipment": "dumbbell"
+            },
+            {
+              "exercise_id": "dumbbell-lateral-raise",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": 10,
+              "exercise_name": "Dumbbell Lateral Raise",
+              "category": "shoulders",
+              "equipment": "dumbbell"
+            }
+          ]
+        },
+        {
+          "type": "cardio",
+          "cardio_id": "walking",
+          "zone": "zone2",
+          "duration_minutes": 20
+        }
+      ]
+    },
+    {
+      "day_index": 1,
+      "title": "Full Body Session 2",
+      "blocks": [
+        {
+          "type": "strength",
+          "items": [
+            {
+              "exercise_id": "dumbbell-front-squat",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": 35,
+              "exercise_name": "Dumbbell Front Squat",
+              "category": "legs",
+              "equipment": "dumbbell"
+            },
+            {
+              "exercise_id": "close-grip-dumbbell-bench-press",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": 30,
+              "exercise_name": "Close Grip Dumbbell Bench Press",
+              "category": "chest",
+              "equipment": "dumbbell"
+            },
+            {
+              "exercise_id": "bent-over-dumbbell-row",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": 30,
+              "exercise_name": "Bent Over Dumbbell Row",
+              "category": "back",
+              "equipment": "dumbbell"
+            },
+            {
+              "exercise_id": "dumbbell-front-raise",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": 10,
+              "exercise_name": "Dumbbell Front Raise",
+              "category": "shoulders",
+              "equipment": "dumbbell"
+            }
+          ]
+        },
+        {
+          "type": "cardio",
+          "cardio_id": "treadmill",
+          "zone": "zone2",
+          "duration_minutes": 20
+        }
+      ]
+    },
+    {
+      "day_index": 2,
+      "title": "Full Body Session 3",
+      "blocks": [
+        {
+          "type": "strength",
+          "items": [
+            {
+              "exercise_id": "dumbbell-lunge",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": 25,
+              "exercise_name": "Dumbbell Lunge",
+              "category": "legs",
+              "equipment": "dumbbell"
+            },
+            {
+              "exercise_id": "bench-dips",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": null,
+              "exercise_name": "Bench Dips",
+              "category": "chest",
+              "equipment": "bodyweight"
+            },
+            {
+              "exercise_id": "bent-over-row",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": 50,
+              "exercise_name": "Bent Over Row",
+              "category": "back",
+              "equipment": "unknown"
+            },
+            {
+              "exercise_id": "dumbbell-lateral-raise",
+              "sets": 3,
+              "reps": 12,
+              "suggested_weight_lb": 10,
+              "exercise_name": "Dumbbell Lateral Raise",
+              "category": "shoulders",
+              "equipment": "dumbbell"
+            }
+          ]
+        },
+        {
+          "type": "cardio",
+          "cardio_id": "elliptical",
+          "zone": "zone2",
+          "duration_minutes": 20
+        }
+      ]
+    }
+  ]
+}

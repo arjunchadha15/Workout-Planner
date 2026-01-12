@@ -1,0 +1,275 @@
+{
+  "test_name": "weight_loss_female_beginner",
+  "generated_at": "2026-01-12T14:43:27.885970",
+  "user_profile": {
+    "age": 35,
+    "gender": "female",
+    "body_weight_lb": 160,
+    "goal": "weight_loss",
+    "experience": "beginner",
+    "days_per_week": 4,
+    "exercises_per_day": 5,
+    "equipment_access": "full_gym",
+    "split_type": "full_body"
+  },
+  "constraint": null,
+  "plan": {
+    "plan_version": "v1",
+    "overview": {
+      "goal": "weight_loss",
+      "days_per_week": 4,
+      "split_type": "full_body",
+      "exercises_per_day": 5
+    },
+    "sessions": [
+      {
+        "day_index": 0,
+        "title": "Full Body Workout A",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "bodyweight-squat",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": null,
+                "exercise_name": "Bodyweight Squat",
+                "category": "legs",
+                "equipment": "bodyweight"
+              },
+              {
+                "exercise_id": "bench-dips",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": null,
+                "exercise_name": "Bench Dips",
+                "category": "chest",
+                "equipment": "bodyweight"
+              },
+              {
+                "exercise_id": "bent-over-dumbbell-row",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 20,
+                "exercise_name": "Bent Over Dumbbell Row",
+                "category": "back",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-bicep-curl",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 30,
+                "exercise_name": "Cable Bicep Curl",
+                "category": "arms",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "crunches",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": null,
+                "exercise_name": "Crunches",
+                "category": "core",
+                "equipment": "bodyweight"
+              }
+            ]
+          },
+          {
+            "type": "cardio",
+            "cardio_id": "treadmill",
+            "zone": "zone3",
+            "duration_minutes": 30
+          }
+        ]
+      },
+      {
+        "day_index": 1,
+        "title": "Full Body Workout B",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "bodyweight-calf-raise",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": null,
+                "exercise_name": "Bodyweight Calf Raise",
+                "category": "legs",
+                "equipment": "bodyweight"
+              },
+              {
+                "exercise_id": "close-grip-push-up",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": null,
+                "exercise_name": "Close Grip Push Up",
+                "category": "chest",
+                "equipment": "bodyweight"
+              },
+              {
+                "exercise_id": "cable-reverse-fly",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 20,
+                "exercise_name": "Cable Reverse Fly",
+                "category": "chest",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "cable-overhead-tricep-extension",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 25,
+                "exercise_name": "Cable Overhead Tricep Extension",
+                "category": "arms",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "bicycle-crunch",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": null,
+                "exercise_name": "Bicycle Crunch",
+                "category": "core",
+                "equipment": "bodyweight"
+              }
+            ]
+          },
+          {
+            "type": "cardio",
+            "cardio_id": "elliptical",
+            "zone": "zone3",
+            "duration_minutes": 30
+          }
+        ]
+      },
+      {
+        "day_index": 2,
+        "title": "Full Body Workout C",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "cable-leg-extension",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Cable Leg Extension",
+                "category": "legs",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "diamond-push-ups",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": null,
+                "exercise_name": "Diamond Push Ups",
+                "category": "chest",
+                "equipment": "bodyweight"
+              },
+              {
+                "exercise_id": "chest-supported-dumbbell-row",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 25,
+                "exercise_name": "Chest Supported Dumbbell Row",
+                "category": "back",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-lateral-raise",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 15,
+                "exercise_name": "Cable Lateral Raise",
+                "category": "shoulders",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "cable-crunch",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 35,
+                "exercise_name": "Cable Crunch",
+                "category": "core",
+                "equipment": "cable"
+              }
+            ]
+          },
+          {
+            "type": "cardio",
+            "cardio_id": "stairmaster",
+            "zone": "zone3",
+            "duration_minutes": 30
+          }
+        ]
+      },
+      {
+        "day_index": 3,
+        "title": "Full Body Workout D",
+        "blocks": [
+          {
+            "type": "strength",
+            "items": [
+              {
+                "exercise_id": "dumbbell-bulgarian-split-squat",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 20,
+                "exercise_name": "Dumbbell Bulgarian Split Squat",
+                "category": "legs",
+                "equipment": "dumbbell"
+              },
+              {
+                "exercise_id": "cable-fly",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 30,
+                "exercise_name": "Cable Fly",
+                "category": "chest",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "cable-shrug",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 40,
+                "exercise_name": "Cable Shrug",
+                "category": "back",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "cable-hammer-curl",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 25,
+                "exercise_name": "Cable Hammer Curl",
+                "category": "arms",
+                "equipment": "cable"
+              },
+              {
+                "exercise_id": "cable-woodchopper",
+                "sets": 3,
+                "reps": 15,
+                "suggested_weight_lb": 20,
+                "exercise_name": "Cable Woodchopper",
+                "category": "core",
+                "equipment": "cable"
+              }
+            ]
+          },
+          {
+            "type": "cardio",
+            "cardio_id": "rowing-machine",
+            "zone": "zone3",
+            "duration_minutes": 30
+          }
+        ]
+      }
+    ]
+  }
+}
